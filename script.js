@@ -5,14 +5,14 @@ for (x =0; x < 10 ; x++){
 }
 
 function yeet(){
-  conversion();
   document.getElementById("text-box").innerHTML = (document.getElementById('indput').value);
+  conversion();
 }
 
 function conversion(){
   var inputValue = document.getElementById("indput");
-  if (indputValue == ("a")){
-    var indputValue = (10);
+  if (indputValue == string("a")){
+    var indputValue = int(10);
     console.log(10)
   }
 
