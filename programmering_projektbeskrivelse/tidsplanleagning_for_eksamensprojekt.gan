@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2019-02-25" view-index="0" gantt-divider-location="300" resource-divider-location="300" version="2.8.9" locale="da">
+    <description/>
+    <view zooming-state="default:5" id="gantt-chart">
+        <field id="tpd3" name="Navn" width="167" order="0"/>
+        <field id="tpd4" name="Start dato" width="65" order="1"/>
+        <field id="tpd5" name="Slut dato" width="64" order="2"/>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Navn" width="210" order="0"/>
+        <field id="1" name="Standard rolle" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" name="Projektstart" color="#8cb6ce" meeting="false" start="2019-01-21" duration="1" complete="0" thirdDate="2019-02-28" thirdDate-constraint="0" expand="true"/>
+        <task id="1" name="Udkast til projektbeskrivelse" color="#8cb6ce" meeting="false" start="2019-02-14" duration="7" complete="0" thirdDate="2019-02-28" thirdDate-constraint="0" expand="true"/>
+        <task id="2" name="Spikesolution 1" color="#8cb6ce" meeting="false" start="2019-02-25" duration="1" complete="0" thirdDate="2019-02-28" thirdDate-constraint="0" expand="true"/>
+        <task id="3" name="opgave_3" meeting="false" start="2019-02-26" duration="3" complete="0" expand="true"/>
+        <task id="4" name="1. Rapport" color="#8cb6ce" meeting="false" start="2019-03-01" duration="4" complete="0" thirdDate="2019-03-01" thirdDate-constraint="0" expand="true"/>
+        <task id="5" name="opgave_5" meeting="false" start="2019-03-07" duration="22" complete="0" expand="true"/>
+        <task id="6" name="opgave_6" meeting="false" start="2019-03-08" duration="1" complete="0" expand="true"/>
+        <task id="7" name="opgave_7" meeting="false" start="2019-03-08" duration="1" complete="0" expand="true"/>
+        <task id="8" name="opgave_8" meeting="false" start="2019-03-11" duration="2" complete="0" expand="true"/>
+        <task id="9" name="opgave_9" meeting="false" start="2019-03-13" duration="2" complete="0" expand="true"/>
+        <task id="10" name="opgave_10" meeting="false" start="2019-03-15" duration="2" complete="0" expand="true"/>
+        <task id="11" name="opgave_11" meeting="false" start="2019-03-19" duration="9" complete="0" expand="true"/>
+        <task id="12" name="opgave_12" meeting="false" start="2019-04-01" duration="1" complete="0" expand="true"/>
+        <task id="13" name="opgave_13" meeting="false" start="2019-04-02" duration="1" complete="0" expand="true"/>
+        <task id="14" name="opgave_14" meeting="false" start="2019-04-08" duration="25" complete="0" expand="true"/>
+        <task id="274" name="opgave_6" color="#8cb6ce" meeting="false" start="2019-04-09" duration="1" complete="0" expand="true"/>
+        <task id="275" name="opgave_7" color="#8cb6ce" meeting="false" start="2019-04-09" duration="1" complete="0" expand="true"/>
+        <task id="276" name="opgave_8" color="#8cb6ce" meeting="false" start="2019-04-10" duration="2" complete="0" expand="true"/>
+        <task id="277" name="opgave_9" color="#8cb6ce" meeting="false" start="2019-04-12" duration="2" complete="0" expand="true"/>
+        <task id="278" name="opgave_10" color="#8cb6ce" meeting="false" start="2019-04-16" duration="2" complete="0" expand="true"/>
+        <task id="279" name="opgave_11" color="#8cb6ce" meeting="false" start="2019-04-18" duration="9" complete="0" expand="true"/>
+        <task id="280" name="opgave_12" color="#8cb6ce" meeting="false" start="2019-05-01" duration="1" complete="0" expand="true"/>
+        <task id="281" name="opgave_13" color="#8cb6ce" meeting="false" start="2019-05-02" duration="1" complete="0" expand="true"/>
+        <task id="282" name="Aflevering af første journal" color="#8cb6ce" meeting="false" start="2019-03-14" duration="1" complete="0" thirdDate="2019-03-14" thirdDate-constraint="0" expand="true"/>
+        <task id="292" name="Aflevering af anden journal" color="#8cb6ce" meeting="false" start="2019-04-12" duration="1" complete="0" thirdDate="2019-04-12" thirdDate-constraint="0" expand="true"/>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
