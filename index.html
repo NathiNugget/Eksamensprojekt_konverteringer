@@ -14,12 +14,15 @@
   det hedder i det hexadecimale talsystem 'f'. I dette system skriver man ikke 10, man det første <br>
   bogstav i alfabetet og det næste indtil man når 'f' - eller 15 i decimalsystemet/10-talssystemet. <br>
   Herunder ses sammenligningen imellem de to, så man kan danne sig et lille overblik på hvordan de to <br>
-  systemer hænger sammen.
-  </p>
-  <img src="hex.png"/></img>
+  systemer hænger sammen.<br>
+  For at omregne fra hexadecimal til decimal, læser man fra højre, ganger man symbolets værdi <br>
+  med 16 opløftet i symbolets position fra højre side. Det vil sige, står der f.eks. 1A hedder <br>
+  udregningen: 10*16**0+16*16**1=26 <br></p>
+
+  <img src="hex.png"/></img><br>
   <input type="text" id="indput">
   <button onclick="yeet()"> Klik her for konvertering </button>
-  <p id="text-box"> yeet </p>
-  <p id="result"> Result </p>
+  <p id="text-box"> Dit input: </p>
+  <p id="result"> Resultat: </p>
 </body>
 </html>
