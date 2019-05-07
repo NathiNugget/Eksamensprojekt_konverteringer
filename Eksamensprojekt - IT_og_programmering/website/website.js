@@ -26,6 +26,7 @@ function conversion(inputValue){
       "F" : "15"
   };
 
+
   var srcString = inputValue.toString();
   var returnNum = 0;
   var i;

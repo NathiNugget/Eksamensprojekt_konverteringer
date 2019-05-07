@@ -64,7 +64,7 @@
   udregningen: 10*16**0+16*16**1=26 <br></p>
 
   <img src="hex.png"/></img><br>
-  <input type="text" id="indput" onkeypress="yeet()">
+  <input type="text" id="indput" onkeyup="yeet()">
   <button onclick="yeet()"> Klik her for konvertering af heksadecimal til decimal</button>
   <p id="text-box"> Dit input: </p>
   <p id="result"> Resultat: </p>
@@ -72,7 +72,7 @@
 <br>
 <br>
   <input type="text" id="binær">
-  <button onclick="binToDec(bin)"> Klik her for konvertering af binær til decimal</button>
+  <button onclick="binToDec()" onkeyup="binToDec()"> Klik her for konvertering af binær til decimal</button>
   <p id="bin-input"> Dit input: </p>
   <p id="dec-result"> Resultat: </p>
     </body>
