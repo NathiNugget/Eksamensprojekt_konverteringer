@@ -1,11 +1,7 @@
-console.log("Hello there!");
-
-convert = true;
-
+// Konverteringsfunkjtionen der tager inputValue som parameter køres.
 function conversion(inputValue){
+  //variablen short referer til resultat
   var short = document.getElementById('result');
-
-  console.log(inputValue);
 
   var mapping = {
       "0" : "0",
@@ -25,7 +21,6 @@ function conversion(inputValue){
       "E" : "14",
       "F" : "15"
   };
-
 
   var srcString = inputValue.toString();
   var returnNum = 0;
@@ -52,38 +47,33 @@ function yeet(){
 
 // Binær --> Decimal konvertering starter her
 
-convert = true;
 
+// Funktionen der definerer mapping over binære værdier, foretager konvertering og printer resultatet starter her.
 function binConversion(binValue){
+// binShort refererer til den tekstbokst i HTML-dokumentet der skal vise resultatet
   var binShort = document.getElementById('dec-result');
-  console.log(binValue);
-
+// Her defineres defineres decimale værdier for hver binær
   var binMapping = {
       "0" : "0",
       "1" : "1",
   };
-
+  // Variabler defineres og den binære værdi bliver lavet om til string.
   var binString = binValue.toString();
   var binReturnNum = 0;
   var i;
-
+// For loop der tager i og længden af binString som parameter.
   for (i = 0; i < binString.length; i++) {
-      if (binMapping[binString[i]] === '1'){
+    // Den matematiske beregning af det binære talsystem til decimal for i.
       binReturnNum += binMapping[binString[i]] * (2 ** (binString.length -1 - i));
     }
-  }
-  console.log(binReturnNum);
+  // Resultat printes
   binShort.innerHTML = "Resultat: " + binReturnNum;
   };
-
+// Funktionen der eksekveres når der trykkes på konverteingskanppen på siden.
 function binToDec(){
+  // Input gemmes som binValue
   var binValue = document.getElementById('binær').value;
+  // Brugeren bliver oplyst om sit input
   document.getElementById("bin-input").innerHTML = "Dit input var: " + (document.getElementById('binær').value);
-  if (convert == true){
     binConversion(binValue);
-    console.log("true");
-  }
-  else {
-    console.log("stop");
-  }
 }
