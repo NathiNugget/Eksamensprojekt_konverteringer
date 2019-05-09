@@ -36,13 +36,9 @@ function conversion(inputValue){
 function yeet(){
   var inputValue = document.getElementById('indput').value;
   document.getElementById("text-box").innerHTML = "Dit input var: " + (document.getElementById('indput').value);
-  if (convert == true){
+
     conversion(inputValue);
     console.log("true");
-  }
-  else {
-    console.log("stop");
-  }
 }
 
 // Binær --> Decimal konvertering starter her
