@@ -10,9 +10,8 @@ function yeet(){
 }
 
 function conversion(){
-  var inputValue = document.getElementById("indput");
-  if (indputValue == ("a")){
-    var indputValue = (10);
+  var inputValue = document.getElementById("indput").value;
+  if (inputValue === "a"){
     console.log(10);
   }
   else{
